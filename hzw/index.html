@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>海贼展示</title>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <style>
+    table{
+      color:gray;
+      font-size:15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" style="background-color:lightgray;text-align:center">
+    <h1 class="text-center" style="font-size:30px;color:gray">海贼展示</h1>
+    <table class="table table-hover">
+     
+      <thead>
+        <tr>
+          <th class="text-center">海贼名</th>
+          <th class="text-center">身份</th>
+          <th class="text-center">技能</th>
+          <th class="text-center">梦想</th>
+          <th class="text-center">弱点</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+
+      </tbody>
+    </table>
+    <a href="sub.html" class="btn btn-info btn-lg" style="left:30%">新增</a>
+  </div>
+  <script id="list" type="text/html">
+    {{each list}}
+    <tr>
+      <td>{{$value.name}}</td>
+      <td>{{$value.level}}</td>
+      <td>{{$value.skill}}</td>
+      <td>{{$value.dream}}</td>
+      <td>{{$value.weakness}}</td>
+    </tr>
+    {{/each}}
+  </script>
+  <script src="lib/jquery.min.js"></script>
+  <script src="lib/template.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

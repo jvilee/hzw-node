@@ -1,0 +1,51 @@
+[
+    {
+        "name": "路飞",
+        "level": "草帽海贼船长",
+        "skill": "橡皮果实＋霸王色霸气",
+        "dream": "海贼王",
+        "weakness": "2b吃货"
+    },
+    {
+        "name": "索隆",
+        "level": "剑客",
+        "skill": "九刀流",
+        "dream": "第一剑客",
+        "weakness": "路痴"
+    },
+    {
+        "name": "山治",
+        "level": "一流厨师",
+        "skill": "恶魔风脚",
+        "dream": "all blue",
+        "weakness": "花痴＋绅士"
+    },
+    {
+        "name": "乌索普",
+        "level": "一流骗子",
+        "skill": "狙击手",
+        "dream": "勇敢海上战士",
+        "weakness": "胆小"
+    },
+    {
+        "name": "罗宾",
+        "level": "考古学家",
+        "skill": "花花果实",
+        "dream": "找到真正的历史正文",
+        "weakness": "腹黑"
+    },
+    {
+        "name": "布鲁克",
+        "level": "音乐家",
+        "skill": "黄泉果实",
+        "dream": "履行和拉布的约定",
+        "weakness": "色"
+    },
+    {
+        "name": "乔巴",
+        "level": "医生",
+        "skill": "人人果实",
+        "dream": "海贼梦",
+        "weakness": "萌"
+    }
+]
